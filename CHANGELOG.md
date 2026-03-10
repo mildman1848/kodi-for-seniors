@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.1.18 - 2026-03-10
+
+- Replaced the technical bottom focus bar with quieter callout pills and moved the active focus feedback back onto the four tiles.
+- Switched the home cards to use the bundled preview artwork more directly so the start screen reads closer to the original mockup.
+
 ## 0.1.17 - 2026-03-10
 
 - Made the home focus handler persistent while the start screen is active so focus properties stay in sync as the user moves between tiles.
