@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.1.6 - 2026-03-10
+
+- Added a dedicated Mediatheken hub window with grouped entry points for ARD, ZDF, Arte, all video add-ons and the library.
+- Improved the TV start tile with dynamic "current" and "next" programme information when Live TV is active.
+- Reframed the settings area as a technician-oriented preparation space and added direct setup paths for mediatheken and library preparation.
+
 ## 0.1.5 - 2026-03-10
 
 - Aligned the home screen more closely with the original senior-launcher concept: color-coded sections, two larger primary tiles on top and calmer preview-oriented content blocks.
