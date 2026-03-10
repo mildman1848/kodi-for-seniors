@@ -10,14 +10,14 @@
 
 ## Files of interest
 
-| File | Purpose |
-| --- | --- |
-| `skin.kodi4seniors/` | Kodi skin addon payload |
-| `skin.kodi4seniors/xml/` | Skin window and include definitions |
-| `scripts/build_release.py` | Builds the addon ZIP |
-| `scripts/publish_to_repo.py` | Publishes the addon into the Kodi repository repo |
-| `.github/workflows/release-publish.yml` | Cross-repo release publishing |
-| `docs/setup-playbook.md` | One-time setup checklist for the technical installer |
+| File                                    | Purpose                                              |
+| --------------------------------------- | ---------------------------------------------------- |
+| `skin.kodi4seniors/`                    | Kodi skin addon payload                              |
+| `skin.kodi4seniors/xml/`                | Skin window and include definitions                  |
+| `scripts/build_release.py`              | Builds the addon ZIP                                 |
+| `scripts/publish_to_repo.py`            | Publishes the addon into the Kodi repository repo    |
+| `.github/workflows/release-publish.yml` | Cross-repo release publishing                        |
+| `docs/setup-playbook.md`                | One-time setup checklist for the technical installer |
 
 ## Local validation
 
