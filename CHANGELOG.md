@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.1.3 - 2026-03-10
+
+- Fixed Linux font loading by shipping lowercase font filenames that match the runtime lookups.
+- Restored the global include chain in `Includes.xml` so Estuary-derived windows can resolve shared includes and variables.
+
 ## 0.1.2 - 2026-03-10
 
 - Bundled the full skin runtime asset set and base XML windows so the skin can actually render screens and dialogs in Kodi.
