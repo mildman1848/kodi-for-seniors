@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.1.1 - 2026-03-10
+
+- Fixed missing base windows and dialog files so the skin can be activated more reliably in Kodi.
+- Kept the simplified four-tile home screen for Fernsehen, Mediatheken, Bibliothek and Einstellung.
+
 ## 0.1.0 - 2026-03-10
 
 - Added the first installable `skin.kodi4seniors` addon skeleton.
