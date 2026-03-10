@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.1.13 - 2026-03-10
+
+- Tightened the home layout against the mockup with more accurate margins, card heights and row spacing.
+
 ## 0.1.12 - 2026-03-10
 
 - Increased the card sizes and redistributed the 2x2 home layout so the screen usage is much closer to the mockup proportions.
