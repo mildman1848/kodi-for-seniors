@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.1.16 - 2026-03-10
+
+- Expanded `focus_handler.py` into a real home initializer that sets the startup focus to the first tile and publishes the active tile state as window properties.
+- Kept directional navigation in XML, but now sync the focused tile label and target for future skin reactions and diagnostics.
+
+## 0.1.15 - 2026-03-10
+
+- Restructured the skin payload around a `1080i/` window folder plus `resources/lib/` and `resources/media/` to match the requested Kodi skin layout more closely.
+- Added bundled launcher preview assets, a packaged `focus_handler.py` helper stub and a top-level `fanart.jpg`.
+- Updated `addon.xml` metadata to reflect the new folder layout while keeping the addon Kodi-compatible.
+
 ## 0.1.14 - 2026-03-10
 
 - Rebuilt the home screen around a simpler fixed four-group layout inspired by the original mockup structure.

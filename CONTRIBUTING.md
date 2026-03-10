@@ -13,7 +13,9 @@
 | File                                    | Purpose                                              |
 | --------------------------------------- | ---------------------------------------------------- |
 | `skin.kodi4seniors/`                    | Kodi skin addon payload                              |
-| `skin.kodi4seniors/xml/`                | Skin window and include definitions                  |
+| `skin.kodi4seniors/1080i/`              | Skin window and include definitions                  |
+| `skin.kodi4seniors/resources/media/`    | Preview, focus and launcher artwork                  |
+| `skin.kodi4seniors/resources/lib/`      | Optional Python helpers bundled with the skin        |
 | `scripts/build_release.py`              | Builds the addon ZIP                                 |
 | `scripts/publish_to_repo.py`            | Publishes the addon into the Kodi repository repo    |
 | `.github/workflows/release-publish.yml` | Cross-repo release publishing                        |
@@ -22,6 +24,6 @@
 ## Local validation
 
 - `python3 -m py_compile scripts/build_release.py scripts/publish_to_repo.py`
-- `xmllint --noout skin.kodi4seniors/addon.xml skin.kodi4seniors/xml/*.xml`
+- `xmllint --noout skin.kodi4seniors/addon.xml skin.kodi4seniors/1080i/*.xml`
 - `python3 scripts/build_release.py`
 - `python3 scripts/publish_to_repo.py --publish-repo /path/to/mildman1848.github.io`

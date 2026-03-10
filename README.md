@@ -10,6 +10,9 @@ Seniorenfreundlicher Kodi-Skin mit Fokus auf:
 ## Struktur
 
 - `skin.kodi4seniors/`: Kodi-Skin-Addon
+- `skin.kodi4seniors/1080i/`: Skin-Window- und Include-Definitionen
+- `skin.kodi4seniors/resources/lib/focus_handler.py`: initialisiert den Home-Fokus und synchronisiert aktive Kachel-Properties
+- `skin.kodi4seniors/resources/media/`: Home-Vorschauen und Fokusgrafiken
 - `scripts/build_release.py`: erzeugt das Release-ZIP
 - `scripts/publish_to_repo.py`: aktualisiert die Kodi-Repo unter `mildman1848.github.io`
 - `.github/workflows/release-publish.yml`: publiziert nach einem GitHub-Release in die Kodi-Repo
