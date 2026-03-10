@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.1.14 - 2026-03-10
+
+- Rebuilt the home screen around a simpler fixed four-group layout inspired by the original mockup structure.
+- Kept navigation in XML instead of introducing a Python focus handler, because Kodi's native focus model is more robust for this skin.
+
 ## 0.1.13 - 2026-03-10
 
 - Tightened the home layout against the mockup with more accurate margins, card heights and row spacing.
