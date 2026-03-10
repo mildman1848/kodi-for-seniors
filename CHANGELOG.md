@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.1.17 - 2026-03-10
+
+- Made the home focus handler persistent while the start screen is active so focus properties stay in sync as the user moves between tiles.
+- Added visible home focus feedback with per-tile "Ausgewaehlt" markers and a bottom status strip showing the active tile and technician lock state.
+
 ## 0.1.16 - 2026-03-10
 
 - Expanded `focus_handler.py` into a real home initializer that sets the startup focus to the first tile and publishes the active tile state as window properties.
