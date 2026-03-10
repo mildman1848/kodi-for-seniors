@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.1.11 - 2026-03-10
+
+- Rescaled and repositioned the four home cards to better fill the 1080p screen area and match the mockup proportions.
+
 ## 0.1.10 - 2026-03-10
 
 - Removed the automatic `Settings.xml` redirect on load, which was a plausible crash trigger during skin switching.
