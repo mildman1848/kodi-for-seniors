@@ -1,6 +1,6 @@
 {
   "name": "kodi-for-seniors",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "private": true,
   "description": "Tooling configuration for the kodi-for-seniors repository",
   "scripts": {

@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.1.12 - 2026-03-10
+
+- Increased the card sizes and redistributed the 2x2 home layout so the screen usage is much closer to the mockup proportions.
+
 ## 0.1.11 - 2026-03-10
 
 - Rescaled and repositioned the four home cards to better fill the 1080p screen area and match the mockup proportions.
