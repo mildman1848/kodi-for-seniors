@@ -1,0 +1,7 @@
+.git/
+dist/
+node_modules/
+tmp/
+skin.kodi4seniors/fonts/
+skin.kodi4seniors/resources/
+*.zip

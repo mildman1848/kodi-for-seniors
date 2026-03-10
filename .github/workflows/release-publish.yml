@@ -1,0 +1,79 @@
+name: Publish Kodi Skin
+
+on:
+  release:
+    types:
+      - published
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.x"
+
+      - name: Build release archive
+        run: python3 scripts/build_release.py
+
+      - name: Check out Kodi repository
+        uses: actions/checkout@v6
+        with:
+          repository: mildman1848/mildman1848.github.io
+          token: ${{ secrets.KODI_REPO_TOKEN }}
+          path: publish-repo
+
+      - name: Update Kodi repository contents
+        run: python3 scripts/publish_to_repo.py --publish-repo "$GITHUB_WORKSPACE/publish-repo"
+
+      - name: Commit and push Kodi repository changes
+        working-directory: publish-repo
+        run: |
+          if git diff --quiet; then
+            echo "No changes to publish"
+            exit 0
+          fi
+
+          VERSION="$(python3 - <<'PY'
+from xml.etree import ElementTree
+tree = ElementTree.parse('../skin.kodi4seniors/addon.xml')
+print(tree.getroot().attrib['version'])
+PY
+)"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add repo/addons.xml repo/addons.xml.md5 repo/skin.kodi4seniors
+          git commit -m "release: publish skin.kodi4seniors ${VERSION}"
+          git push
+
+      - name: Create GitHub release in Kodi repository
+        env:
+          GH_TOKEN: ${{ secrets.KODI_REPO_TOKEN }}
+        run: |
+          VERSION="$(python3 - <<'PY'
+from xml.etree import ElementTree
+tree = ElementTree.parse('skin.kodi4seniors/addon.xml')
+print(tree.getroot().attrib['version'])
+PY
+)"
+          if gh release view "skin.kodi4seniors-${VERSION}" --repo mildman1848/mildman1848.github.io >/dev/null 2>&1; then
+            gh release upload "skin.kodi4seniors-${VERSION}" \
+              "dist/skin.kodi4seniors-${VERSION}.zip" \
+              --repo mildman1848/mildman1848.github.io \
+              --clobber
+          else
+            gh release create "skin.kodi4seniors-${VERSION}" \
+              "dist/skin.kodi4seniors-${VERSION}.zip" \
+              --repo mildman1848/mildman1848.github.io \
+              --title "skin.kodi4seniors ${VERSION}" \
+              --notes "Automatisch aus mildman1848/kodi-for-seniors veroeffentlicht."
+          fi

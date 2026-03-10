@@ -1,0 +1,17 @@
+{
+  "name": "kodi-for-seniors",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tooling configuration for the kodi-for-seniors repository",
+  "scripts": {
+    "build": "python3 scripts/build_release.py",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint:python": "python3 -m py_compile scripts/build_release.py scripts/publish_to_repo.py",
+    "lint:xml": "xmllint --noout skin.kodi4seniors/addon.xml skin.kodi4seniors/xml/Font.xml skin.kodi4seniors/xml/Includes.xml skin.kodi4seniors/xml/Home.xml skin.kodi4seniors/xml/Settings.xml skin.kodi4seniors/xml/MyPVRChannels.xml skin.kodi4seniors/xml/MyPVRGuide.xml skin.kodi4seniors/xml/DialogButtonMenu.xml",
+    "validate": "npm run lint:python && npm run lint:xml && npm run build"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
