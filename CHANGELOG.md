@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.1.10 - 2026-03-10
+
+- Removed the automatic `Settings.xml` redirect on load, which was a plausible crash trigger during skin switching.
+- Reworked the home screen to visually track the provided mockup more closely: no header on the start screen, four large cards, stronger preview blocks and a calmer settings tile.
+
 ## 0.1.9 - 2026-03-10
 
 - Fixed the final outdated `font_MainMenu` font reference so Kodi no longer falls back from `fonts/dejavusans-bold.ttf` for that alias.
