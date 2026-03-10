@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.1.5 - 2026-03-10
+
+- Aligned the home screen more closely with the original senior-launcher concept: color-coded sections, two larger primary tiles on top and calmer preview-oriented content blocks.
+- Improved the semantic distinction between daily-use areas and the technical settings area.
+
 ## 0.1.4 - 2026-03-10
 
 - Reworked the home screen into four large tiles in a 2x2 layout instead of a list-style menu.
