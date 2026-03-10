@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.1.7 - 2026-03-10
+
+- Added a PIN-gated technician mode with a dedicated unlock window before the settings area can be reached.
+- Changed the fourth home tile into a caregiver access point while locked and added an explicit action to end technician mode again.
+
 ## 0.1.6 - 2026-03-10
 
 - Added a dedicated Mediatheken hub window with grouped entry points for ARD, ZDF, Arte, all video add-ons and the library.
