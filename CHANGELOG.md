@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.1.4 - 2026-03-10
+
+- Reworked the home screen into four large tiles in a 2x2 layout instead of a list-style menu.
+- Simplified the supporting text on the start screen so the UI reads more like a calm senior launcher and less like a technical skin fork.
+
 ## 0.1.3 - 2026-03-10
 
 - Fixed Linux font loading by shipping lowercase font filenames that match the runtime lookups.
