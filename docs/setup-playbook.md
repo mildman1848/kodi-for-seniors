@@ -6,11 +6,10 @@ Dieses Playbook richtet sich an die Person, die Kodi einmalig vorbereitet.
 
 Im Alltag sollen Seniorinnen und Senioren nur noch:
 
-- Live-TV oeffnen
-- den TV-Guide lesen
-- Sender wechseln
+- Fernsehen oeffnen
 - Mediatheken starten
-- Kodi sauber beenden
+- die Bibliothek oeffnen
+- bei Bedarf in die Einstellung wechseln
 
 ## Einmalige Einrichtung
 
@@ -26,11 +25,10 @@ Im Alltag sollen Seniorinnen und Senioren nur noch:
 
 Vor der Uebergabe sollten diese Wege funktionieren:
 
-- Startseite -> Live-TV
-- Startseite -> TV-Guide
-- Startseite -> Senderliste
+- Startseite -> Fernsehen
 - Startseite -> Mediatheken
-- Startseite -> Ausschalten
+- Startseite -> Bibliothek
+- Startseite -> Einstellung
 
 ## Empfehlung
 

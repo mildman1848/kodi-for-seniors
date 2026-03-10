@@ -26,15 +26,12 @@ Das Repo enthaelt ausserdem:
 
 ## Setup-Idee
 
-Der Skin reduziert die Startseite auf wenige grosse Ziele:
+Der Skin reduziert die Startseite auf genau vier grosse Kacheln:
 
-- Live-TV
-- TV-Guide
-- Senderliste
+- Fernsehen
 - Mediatheken
-- Aufnahmen
-- Einrichtung
-- Ausschalten
+- Bibliothek
+- Einstellung
 
 Die technisch versierte Person richtet einmalig ein:
 
@@ -44,24 +41,3 @@ Die technisch versierte Person richtet einmalig ein:
 4. diesen Skin als Standardskin
 
 Danach bleibt die alltaegliche Bedienung auf wenige grosse Schaltflaechen begrenzt.
-
-## Release
-
-Lokal bauen:
-
-```sh
-python3 scripts/build_release.py
-```
-
-In die Kodi-Repo schreiben:
-
-```sh
-python3 scripts/publish_to_repo.py \
-  --publish-repo /home/philipp/Dokumente/Github/mildman1848.github.io
-```
-
-## GitHub Actions
-
-Der Workflow erwartet fuer Cross-Repo-Publishing ein Secret:
-
-- `KODI_REPO_TOKEN`: Personal Access Token mit Schreibrechten auf `mildman1848/mildman1848.github.io`
