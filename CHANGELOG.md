@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.1.8 - 2026-03-10
+
+- Restored the complete shared include foundation from Estuary and moved the senior-specific home/settings includes into a dedicated custom include file.
+- Fixed custom window ids for the Mediatheken hub and technician access window.
+- Switched font filenames to Estuary-style references so Kodi can resolve the packaged fonts more reliably.
+
 ## 0.1.7 - 2026-03-10
 
 - Added a PIN-gated technician mode with a dedicated unlock window before the settings area can be reached.
