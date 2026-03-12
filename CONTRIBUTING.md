@@ -1,4 +1,4 @@
-# Contributing to kodi-for-seniors
+# Contributing to Kodi4Seniors
 
 ## Before opening a pull request
 

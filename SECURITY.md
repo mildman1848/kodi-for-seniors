@@ -13,6 +13,6 @@ Only the current release line receives updates.
 
 Please use GitHub Security Advisories for private disclosure:
 
-- https://github.com/mildman1848/kodi-for-seniors/security/advisories/new
+- https://github.com/mildman1848/Kodi4Seniors/security/advisories/new
 
 If that path is unavailable, contact the maintainers privately and do not open a public issue first.

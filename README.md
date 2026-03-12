@@ -1,4 +1,4 @@
-# kodi-for-seniors
+# Kodi4Seniors
 
 Seniorenfreundlicher Kodi-Skin mit Fokus auf:
 

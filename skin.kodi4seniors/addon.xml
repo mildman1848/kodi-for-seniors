@@ -10,8 +10,8 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <license>GPL-3.0-or-later</license>
-    <source>https://github.com/mildman1848/kodi-for-seniors</source>
-    <website>https://github.com/mildman1848/kodi-for-seniors</website>
+    <source>https://github.com/mildman1848/Kodi4Seniors</source>
+    <website>https://github.com/mildman1848/Kodi4Seniors</website>
     <assets>
       <icon>resources/icon.png</icon>
       <fanart>fanart.jpg</fanart>
