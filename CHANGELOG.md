@@ -7,6 +7,11 @@ All notable changes to this project will be documented in this file.
 - Replaced the technical bottom focus bar with quieter callout pills and moved the active focus feedback back onto the four tiles.
 - Switched the home cards to use the bundled preview artwork more directly so the start screen reads closer to the original mockup.
 
+## 0.1.19 - 2026-03-13
+
+- Reworked the four home tiles so focus, call-to-action text and content blocks match the actually selectable areas more reliably.
+- Extended the same clearer focus and guidance model to the Mediatheken hub and technician access screens.
+
 ## 0.1.17 - 2026-03-10
 
 - Made the home focus handler persistent while the start screen is active so focus properties stay in sync as the user moves between tiles.

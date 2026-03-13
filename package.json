@@ -1,6 +1,6 @@
 {
   "name": "Kodi4Seniors",
-  "version": "0.1.18",
+  "version": "0.1.19",
   "private": true,
   "description": "Tooling configuration for the Kodi4Seniors repository",
   "scripts": {

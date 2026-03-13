@@ -1,3 +1,7 @@
+[0.1.19]
+- Reworked the four home tiles so focus, action hints and content blocks match the selectable areas more reliably.
+- Extended the clearer focus model to the Mediatheken hub and technician access screens.
+
 [0.1.18]
 - Fokusdarstellung optisch naeher an das Mockup gezogen: aktive Kachelrahmen direkt auf den Karten, ruhigere Hinweis-Pills unten und staerkere Nutzung der Preview-Grafiken.
 
