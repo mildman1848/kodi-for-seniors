@@ -1,3 +1,7 @@
+[0.1.20]
+- Die farblich getrennte 2x2-Startseite wieder stärker an das Mockup angenähert.
+- Deutsche Texte in den aktualisierten Senioren-Oberflächen auf echte Umlaute umgestellt.
+
 [0.1.19]
 - Reworked the four home tiles so focus, action hints and content blocks match the selectable areas more reliably.
 - Extended the clearer focus model to the Mediatheken hub and technician access screens.

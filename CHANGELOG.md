@@ -12,6 +12,11 @@ All notable changes to this project will be documented in this file.
 - Reworked the four home tiles so focus, call-to-action text and content blocks match the actually selectable areas more reliably.
 - Extended the same clearer focus and guidance model to the Mediatheken hub and technician access screens.
 
+## 0.1.20 - 2026-03-13
+
+- Restored a clearer 2x2 mockup-like color separation on the home screen so the four main areas read as distinct blocks again.
+- Replaced german UI fallbacks such as `oe`, `ae` and `ue` with proper umlauts in the updated senior-facing screens.
+
 ## 0.1.17 - 2026-03-10
 
 - Made the home focus handler persistent while the start screen is active so focus properties stay in sync as the user moves between tiles.
